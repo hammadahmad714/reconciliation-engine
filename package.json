@@ -7,7 +7,8 @@
   "scripts": {
     "test": "node ./test/run-tests.js",
     "test:a03": "node ./part-a03/test/run-tests.js",
-    "test:b05": "node ./part-b/b05-device-compliance/test/run-tests.js"
+    "test:b05": "node ./part-b/b05-device-compliance/test/run-tests.js",
+    "test:b06": "node ./part-b/b06-fleet-orchestrator/test/run-tests.js"
   },
   "devDependencies": {}
 }
