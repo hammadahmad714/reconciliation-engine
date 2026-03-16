@@ -1,0 +1,40 @@
+{
+  "deviceId": "emulator-5554",
+  "app": {
+    "package": "com.example.socialapp",
+    "launchActivity": "com.example.socialapp.MainActivity"
+  },
+  "targetAccount": "@creator1",
+  "captionText": "Automated test post via ADB harness.",
+  "likeCount": 5,
+  "timeouts": {
+    "stateMs": 15000,
+    "elementMs": 10000,
+    "postSubmitMs": 30000
+  },
+  "pollIntervals": {
+    "stateMs": 500,
+    "elementMs": 400
+  },
+  "retries": {
+    "recover": 3
+  },
+  "scroll": {
+    "distanceRatio": {
+      "min": 0.5,
+      "max": 0.8
+    },
+    "durationMs": {
+      "min": 450,
+      "max": 900
+    }
+  },
+  "popupButtons": [
+    "Not now",
+    "Cancel",
+    "Close",
+    "No thanks",
+    "Remind me later"
+  ]
+}
+
