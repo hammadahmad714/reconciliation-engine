@@ -1,0 +1,12 @@
+{
+  "name": "reconciliation-engine",
+  "version": "1.0.0",
+  "description": "Social post reconciliation engine assessment",
+  "type": "commonjs",
+  "main": "src/reconcile.js",
+  "scripts": {
+    "test": "node ./test/run-tests.js"
+  },
+  "devDependencies": {}
+}
+
